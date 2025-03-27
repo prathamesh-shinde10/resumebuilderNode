@@ -26,7 +26,7 @@ app.use('/api/experience', experienceRoutes);
 app.use('/api/skill', skillRoutes);
 
 // Connect to MongoDB
-mongoose.connect('mongodb://localhost:27017/builderDB')
+mongoose.connect('mongodb+srv://prathameshshinde1052001:Pass123@cluster0.erg78.mongodb.net/builderDB')
   .then(() => console.log('✅ Connected to MongoDB'))
   .catch(err => console.error('❌ MongoDB connection error:', err));
 
